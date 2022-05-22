@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 
 options = Options()
 options.headless = True
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options = options)
+driver = webdriver.Chrome(options = options)
 
 username = "" #add username here
 password = "" #add password here
