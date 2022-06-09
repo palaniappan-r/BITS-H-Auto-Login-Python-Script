@@ -21,4 +21,4 @@ def login(url,usernameId, username, passwordId, password, submit_buttonId):
 
 login("http://172.16.0.30:8090/","username",username,"password",password,"loginbutton")
 
-driver.close()
+driver.quit()
